@@ -102,3 +102,47 @@
 // const subscription = "pro";
 // const canAccessContent = subscription === "pro" || subscription === "vip";
 // console.log(" canAccessContent:", canAccessContent);
+// console.log(" canAccessContent:", canAccessContent);
+
+// console.log("before");
+// if (5 > 30) {
+//   // тело
+//   console.log("inside");
+// }
+// console.log("after");
+
+// let balance = 1000;
+// const payment = 2000;
+
+// console.log(
+//   `Общая стоимость заказа ${payment} гривен. Проверяем количество доступный средств на вашем балансе`
+// );
+
+// if (balance >= payment) {
+//   balance = balance - payment;
+//   console.log(`Покупка успешна! Спасибо за покупку!`);
+//   console.log(`На счету осталось ${balance} гривен`);
+// } else {
+//   console.log("Недостаточно средств!");
+// }
+
+const totalExpenses = 5000000000;
+const payment = 5000;
+let discount = 0;
+
+if (totalExpenses >= 100 && totalExpenses < 1000) {
+  discount = 0.02;
+  console.log("Бронзовый партнер, скидка 2%");
+} else if (totalExpenses >= 1000 && totalExpenses < 5000) {
+  discount = 0.05 % console.log("Сребрянный партнер, скидка 5%");
+} else if (totalExpenses >= 5000) {
+  discount = 0.2 % console.log("Золотой партнер, скидка 20%");
+} else {
+  console.log("У вас пока что нету партнерской скидки");
+}
+
+const finalAmount = payment - payment * discount;
+
+console.log(finalAmount);
+
+console.log(`Оформляем заказ со скидкой ${discount}%`);
