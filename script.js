@@ -81,12 +81,24 @@
 // console.log("normalizInput: ", normalizInput);
 // console.log(value === normalizInput);
 
-const number = 60;
+// const number = 60;
 
 // const isInRange = number > 10 && number < 30;
 
 // console.log(`Число ${number} попадает в отрезок от 10 до 30`, isInRange);
 
-const isInRange = number < 10 || number > 30;
+// const isInRange = number < 10 || number > 30;
 
-console.log(`Число ${number} попадает в отрезок от 10 до 30`, isInRange);
+// console.log(`Число ${number} попадает в отрезок от 10 до 30`, isInRange);
+// console.log(0 || false || 0);
+
+// const isOnline = true;
+// const isFriend = true;
+// const isDnd = false;
+
+// const canOpenChat = isOnline && isFriend && !isDnd;
+// console.log("canOpenChat: ", canOpenChat);
+
+// const subscription = "pro";
+// const canAccessContent = subscription === "pro" || subscription === "vip";
+// console.log(" canAccessContent:", canAccessContent);
