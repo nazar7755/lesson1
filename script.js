@@ -146,3 +146,86 @@ const finalAmount = payment - payment * discount;
 console.log(finalAmount);
 
 console.log(`Оформляем заказ со скидкой ${discount}%`);
+
+// const age = 16;
+// const category = age >= 18 ? "adult" : "child";
+
+// if (age >= 18) {
+//   category = "adult";
+// } else {
+//   category = "child";
+// }
+
+// console.log(category);
+
+// if (stars === 1) {
+//   console.log("1");
+// } else if (stars === 2) {
+//   console.log("2");
+// } else if (stars === 3) {
+//   console.log("3");
+// } else if (stars === 4) {
+//   console.log("4");
+// } else if (stars === 5) {
+//   console.log("5");
+// } else {
+//   console.log("Неверный ввод");
+// }
+
+// const stars = 6;
+// let price = 0;
+
+// switch (stars) {
+//   case 1:
+//     price = 20;
+//     break;
+
+//   case 2:
+//   case 3:
+//   case 4:
+//     price = 50;
+//     break;
+
+//   case 5:
+//     price = 100;
+//     break;
+
+//   default:
+//     result = "Неверный ввод";
+// }
+// console.log(price);
+
+// for (let i = 0; i < 5; i += 1) {
+//   console.log(`i ${i}`);
+// }
+
+// let userInput = prompt("Введите число");
+// userInput = Number(userInput);
+// let total = 0;
+// for (let i = 1; i <= userInput; i += 1) {
+//   total += i;
+// }
+// console.log(`Total = ${total}`);
+
+// const number = 5;
+// let total = 0;
+// let i = 1;
+
+// while (i <= number) {
+//   total += i;
+
+//   i += 1;
+// }
+
+// console.log(`Total = ${total}`);
+
+// let userInput;
+// do {
+//   userInput = prompt("Print 5");
+
+//   if (userInput === null) {
+//     break;
+//   }
+//   userInput = Number(userInput);
+// } while (userInput !== 5);
+// console.log(userInput);
