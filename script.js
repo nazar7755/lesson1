@@ -229,3 +229,31 @@ console.log(`Оформляем заказ со скидкой ${discount}%`);
 //   userInput = Number(userInput);
 // } while (userInput !== 5);
 // console.log(userInput);
+
+// for (let i = 0; i < 10; i += 1) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+
+let total = 0;
+while (true) {
+  let input = prompt("print number");
+
+  if (input === null) {
+    console.log("Отменено пользоватилем");
+    break;
+  }
+
+  input = Number(input);
+
+  const notANumber = Number.isNaN(input);
+  if (notANumber) {
+    console.log("Было введено не число!!!");
+    continue;
+  }
+
+  total += input;
+}
+
+console.log(`общая сумма ${total}`);
